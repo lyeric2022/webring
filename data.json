@@ -1,0 +1,15 @@
+{
+    "name": "My Awesome Webring",
+    "description": "A collection of personal websites and blogs",
+    "sites": [
+        {
+            "id": 1,
+            "name": "Eric Ly",
+            "url": "https://www.lyyeric.tech/",
+            "description": "Eric's very cool site",
+            "github": "lyeric2022",
+            "joinedDate": "2025-04-16"
+        }
+    ],
+    "lastUpdated": "2025-04-16"
+}
