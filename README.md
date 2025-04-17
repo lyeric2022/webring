@@ -2,13 +2,18 @@
 
 A simple API for serving and navigating through a webring of personal websites.
 
+## Live Demo
+
+The API is deployed and available at:
+[https://physical-larine-lyeric2022-ae24427c.koyeb.app/](https://physical-larine-lyeric2022-ae24427c.koyeb.app/)
+
 ## Setup
 
 ```bash
 # Install dependencies
 pip install fastapi uvicorn
 
-# Run the server
+# Run the server locally
 uvicorn main:app --reload
 ```
 
@@ -22,8 +27,11 @@ uvicorn main:app --reload
 ## Example
 
 ```bash
-# Get navigation links for "Retro Web"
-curl http://localhost:8000/neighbors/Retro%20Web
+# Get navigation links using the deployed API
+curl https://physical-larine-lyeric2022-ae24427c.koyeb.app/neighbors/lyeric2022
+
+# Or when testing locally
+curl http://localhost:8000/neighbors/lyeric2022
 ```
 
 ## Contributing
